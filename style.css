@@ -1,0 +1,206 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.3px;
+  word-spacing: 2.5px;
+}
+
+.srr{
+  word-spacing: 1.2px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  .light{
+    background-image: url(moon.png);
+  }
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nav-left{
+  display: flex;
+}
+
+/* .nav-emo{
+
+} */
+
+.nav-text{
+  padding-left: 3px;
+  margin-top: 3.5px;
+}
+
+.nav-search{
+  display: flex;
+  padding: 8px;
+}
+
+.nav-img{
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.nav-search:hover{
+  cursor: pointer;
+  background: #e9e5e3;
+  border-radius: 4px;
+}
+
+.hero-img{
+  width: 1150px;
+  height: 450px;
+  border-radius: 15px;
+}
+
+.hero{
+  margin: 0px;
+  padding: 0;
+  text-align: center;
+}
+
+.body{
+  margin: 0 240px;
+}
+
+.head{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #3e3e3f;
+}
+
+.icon{
+  font-size: 75px;
+}
+
+.center{
+  text-align: center;
+  margin-top: -50px;
+}
+
+.choose{
+  text-align: center;
+}
+
+.choose-img{
+  width: 900px;
+  height: 500px;
+  margin: 30px 0;
+  border-radius: 10px;
+}
+
+.oh{
+  font-size: 22px;
+  color: #e83232;
+  text-decoration: underline solid #373636;
+  font-style: italic;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.ah{
+  font-size: 22px;
+  color: #6ab7ea;
+  text-decoration: underline solid #373636;
+}
+
+.th{
+  font-size: 22px;
+  color: #b079eb;
+  text-decoration: underline solid #373636;
+}
+
+.lh{
+  font-size: 22px;
+  color: #eb8d3b;
+  text-decoration: underline solid #373636;
+}
+
+.bh{
+  font-size: 22px;
+  color: #073f72;
+  text-decoration: underline solid #373636;
+}
+
+.wh{
+    font-size: 22px;
+    text-decoration: underline solid #373636;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0; 
+  align-items: center;
+  margin-top: 100px;
+}
+
+.o4, .o2, .o3{
+  margin-top: 40px;
+}
+
+.a, .t, .l, .b, .w{
+  margin-top: 30px;
+}
+
+.light:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width:1200px) {
+  .hero-img{
+    width: 800px;
+    height: 350px;
+  }
+
+  .choose-img{
+    width: 600px;
+    height: 350px;
+  }
+
+  .body{
+    margin: 0 140px;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .hero-img{
+    width: 600px;
+    height: 350px;
+  }
+
+  .choose-img{
+    width: 400px;
+    height: 250px;
+  }
+
+  .body{
+    margin: 0 80px;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .hero-img{
+    width: 400px;
+    height: 300px;
+  }
+
+  .choose-img{
+    width: 300px;
+    height: 200px;
+  }
+
+  .body{
+    margin: 0 30px;
+  }
+}
